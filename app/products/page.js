@@ -107,7 +107,7 @@ export default function ProductsPage() {
 
         <div className="w-full md:w-3/4">
           {filteredProducts.length === 0 ? (
-            <div className="text-center py-8 bg-emerald-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100">
+            <div className="text-center py-8 bg-emerald-50 dark:bg-gray-800 text-gray-900 dark:text-gray-100">
               <p className="text-xl">No products found matching your criteria.</p>
             </div>
           ) : (

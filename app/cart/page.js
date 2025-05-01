@@ -28,7 +28,7 @@ export default function CartPage() {
 
   if (cart.length === 0) {
     return (
-      <div className="min-h-screen bg-emerald-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100">
+      <div className="min-h-screen bg-emerald-50 dark:bg-gray-800 text-gray-900 dark:text-gray-100">
 
       <div className="container mx-auto px-4 py-16 text-center">
         <div className="flex flex-col items-center justify-center">
