@@ -46,10 +46,10 @@ export default function ProductDetailPage() {
 
   if (error) return <div className="container mx-auto px-4 py-8 text-center text-red-500 min-h-screen bg-emerald-50 dark:bg-gray-800 text-gray-900 dark:text-gray-100">{error}</div>
 
-  if (!product) return <div className="container mx-auto px-4 py-8 text-center min-h-screen bg-emerald-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100">Product not found</div>
+  if (!product) return <div className="container mx-auto px-4 py-8 text-center min-h-screen bg-emerald-50 dark:bg-gray-800 text-gray-900 dark:text-gray-100">Product not found</div>
 
   return (
-    <div className="min-h-screen bg-emerald-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100">
+    <div className="min-h-screen bg-emerald-50 dark:bg-gray-800 text-gray-900 dark:text-gray-100">
 
     <div className="container mx-auto px-4 py-8">
       <Link href="/products" className="inline-flex items-center text-emerald-600 hover:text-emerald-800 mb-6">
